@@ -1,7 +1,7 @@
 import telebot
 from codechef import *
 
-TOKEN = "5992588684:AAFZ-a2BkICJhC2O0CAOoKcg6-XczmVoyXE"
+TOKEN = "//Enter Your Token Here"
 bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
